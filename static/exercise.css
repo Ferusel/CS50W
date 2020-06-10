@@ -1,0 +1,31 @@
+header h1 {
+  font-family: "Spartan", "Poppins";
+  font-weight: bold;
+  font-size: calc(16px + 3vw);
+}
+
+main i {
+  font-family: "Poppins";
+  font-size: calc(8px + 0.5vw);
+}
+main i span {
+  font-style: italic;
+}
+main h4 {
+  font-family: "Spartan", "Poppins";
+  font-weight: bold;
+}
+main p {
+  font-family: "Poppins", "Helvetica";
+  font-size: calc(16px + 0.5vw);
+}
+main #table-head {
+  font-family: "Bebas Neue";
+  font-size: calc(18px + 0.5vw);
+}
+main tr {
+  font-family: "Poppins", "Spartan";
+  font-size: calc(16px + 0.5vw);
+}
+
+/*# sourceMappingURL=exercise.css.map */

@@ -1,0 +1,38 @@
+$general-fontsize: calc(16px + 0.5vw);
+$header-fontsize: calc(18px + 0.5vw); 
+
+header{
+    h1{
+        font-family: "Spartan", "Poppins";
+        font-weight: bold;
+        font-size: calc(16px + 3vw);
+    }
+}
+
+main{
+    i{
+        font-family: "Poppins";
+        font-size: calc(8px + 0.5vw);
+        span{
+            font-style: italic;
+        }
+    }
+    h4{
+        font-family: "Spartan", "Poppins";
+        font-weight: bold;
+    }
+    p{
+        font-family: "Poppins", "Helvetica";
+        font-size: $general-fontsize;
+    }
+
+    #table-head{
+        font-family: "Bebas Neue";
+        font-size: $header-fontsize;
+    }
+
+    tr{
+        font-family: "Poppins", "Spartan";
+        font-size: $general-fontsize;
+    }
+}

@@ -1,7 +1,73 @@
 {% extends "layout.html" %}
 {% block content %}
-<header>
-    <title>Exercise Tips</title>
-    <h1>How to Workout?</h1>
-</header>
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="{{ url_for('static', filename='exercise.css') }}"
+/>
+<div class="container">
+    <header class="mt-3">
+        <title>BodyMaestro: Exercise Tips</title>
+        <h1>How to Workout?</h1>
+    </header>
+    <hr>
+    <main>
+        <i class="mb-2">Written By: <span>MysteryMeat</span></i>
+        <h4>Guidelines to Exercise</h4>
+        <p>There are many ways to exercise. Generally you should aim to complete your workout feeling 70%-80% drained. Measure your workout in effort, not reps! You should always aim to push yourself a little bit, and come back tomorrow stronger. You should give yourself enough time to rest in-between workouts, and never work out the same muscle group twice in 48hrs, to prevent fatigue!</p>
+
+        <h4>What do I do?</h4>
+        <p>There are a lot of different ways to categorize exercise. For example, calisthetics/aerobic/weight-lifting, high-intensity/low-intensity workouts, muscle-groups, and more. Your workout then depends on what your aim is. If you want to run faster and further, do more aerobic exercises like jogging. If you want hypertrophy (muscle gain), do more weight-lifting. If you want toning, you can do weight-lifting and calisthetics.The list goes on...</p>
+
+        <h4>Sample Workout for the Core</h4>
+        <p>Here is an example workout I planned to workout your core!</p>
+        <table class='table'>
+            <thead class='thead-light'>
+                <tr id="table-head">
+                    <th scope="col">#</th>
+                    <th>Exercise Name</th>
+                    <th>Time/Reps to XTinction</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>2 Down 1 Ups</td>
+                    <td>1 min</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Figure 8s</td>
+                    <td>1 min</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>21 Crunch</td>
+                    <td>12 Reps</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>REST</td>
+                    <td>1 min</td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>Scissor V-Ups</td>
+                    <td>1 min</td>
+                </tr>
+                <tr>
+                    <th scope="row">6</th>
+                    <td>Hip Touch Planks</td>
+                    <td>12/side</td>
+                </tr>
+                <tr>
+                    <th scope="row">7</th>
+                    <td>Russian V-Tuck Twist</td>
+                    <td>12/side</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Hope you found this useful!</p>
+    </main>
+</div>
 {% endblock content %}

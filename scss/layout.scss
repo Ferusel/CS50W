@@ -1,4 +1,7 @@
 $header-font: "Bebas Neue", "Spartan";
+$footer-headers-fontsize: calc(12px + 0.5vw);
+$footer-body-fontsize: calc(10px + 0.5vw);
+$footer-copyright-fontsize: calc(8px + 0.5vw);
 
 nav{
     background-color: whitesmoke;
@@ -23,13 +26,14 @@ footer{
     background-color: rgba(0, 47, 255, 0.767);
     h6{
         font-family: "Spartan", "Helvetica";
-        font-size: 2vh;
+        font-size: $footer-headers-fontsize;
         color: rgb(255, 255, 255);
     }
     p, a{
         color: black;
         font-family: "Poppins", "Spartan";
         text-decoration: none;
+        font-size: $footer-body-fontsize;
     }
     hr{
         height: 2px;
@@ -38,5 +42,6 @@ footer{
     small{
         font-family: "Poppins", "Spartan";
         color: black;
+        font-size: $footer-copyright-fontsize;
     }
 }

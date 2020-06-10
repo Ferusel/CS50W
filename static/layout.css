@@ -20,13 +20,14 @@ footer {
 }
 footer h6 {
   font-family: "Spartan", "Helvetica";
-  font-size: 2vh;
+  font-size: calc(12px + 0.5vw);
   color: white;
 }
 footer p, footer a {
   color: black;
   font-family: "Poppins", "Spartan";
   text-decoration: none;
+  font-size: calc(10px + 0.5vw);
 }
 footer hr {
   height: 2px;
@@ -35,6 +36,7 @@ footer hr {
 footer small {
   font-family: "Poppins", "Spartan";
   color: black;
+  font-size: calc(8px + 0.5vw);
 }
 
 /*# sourceMappingURL=layout.css.map */
