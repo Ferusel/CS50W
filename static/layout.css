@@ -1,0 +1,40 @@
+nav {
+  background-color: whitesmoke;
+}
+nav a span {
+  font-family: "Bebas Neue", "Spartan";
+  font-size: 6vh;
+  word-spacing: 0.1em;
+}
+nav a img {
+  height: 100px;
+  width: 100px;
+}
+nav ul {
+  font-family: "Spartan", "Helvetica";
+  font-size: 3vh;
+}
+
+footer {
+  background-color: rgba(0, 47, 255, 0.767);
+}
+footer h6 {
+  font-family: "Spartan", "Helvetica";
+  font-size: 2vh;
+  color: white;
+}
+footer p, footer a {
+  color: black;
+  font-family: "Poppins", "Spartan";
+  text-decoration: none;
+}
+footer hr {
+  height: 2px;
+  width: 100%;
+}
+footer small {
+  font-family: "Poppins", "Spartan";
+  color: black;
+}
+
+/*# sourceMappingURL=layout.css.map */

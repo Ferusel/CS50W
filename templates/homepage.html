@@ -1,0 +1,31 @@
+{% extends "layout.html" %} {% block content %}
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="{{ url_for('static', filename='homepage.css') }}"
+/>
+<div class="container-fluid">
+    <div class="jumbotron">
+        <div class="row col-8">
+            <img
+                src="https://i.ibb.co/N6k36Z0/strongman.png"
+                alt="strongman"
+                class="rounded-circle mx-2 border img-fluid"
+            />
+            <h1 class="align-self-center">BodyMaestro</h1>
+        </div>
+        <p class="lead">Eat smart, move hard!</p>
+        <hr class="my-4">
+        <p>All you need to know about eating and exercising right!</p>
+    </div>
+</div>
+<div id="button-area" class="d-flex justify-content-around my-5">
+    <hr class="button-sep">
+    <a class="btn" data-toggle="tooltip" title="Watch Your Food!" href="{{ url_for('diet') }}"><i class="fas fa-hamburger fa-7x rounded-circle"></i></a>
+    <hr class="button-sep">
+    <a class="btn" data-toggle="tooltip" title="Workout Together!" href="{{ url_for('exercise') }}"><i class="fas fa-dumbbell fa-7x rounded-circle"></i></a>
+    <hr class="button-sep">
+    <a class="btn" data-toggle="tooltip" title="Find Out More..." href="{{ url_for('about') }}"><i class="far fa-question-circle fa-7x rounded-circle"></i></a>
+    <hr class="button-sep">
+</div>
+{% endblock content%}

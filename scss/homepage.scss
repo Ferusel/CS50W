@@ -1,0 +1,38 @@
+.jumbotron{
+    background-image: url("https://i.ibb.co/3v1Wrrn/gymbg-edited.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    .row{
+        white-space: nowrap;
+    }
+
+    h1{
+        font-family: "Bebas Neue", "Spartan";
+        font-size: calc(16px + 10vw);
+    }
+
+    img{
+        max-height: 10%;
+        max-width: 20%;
+    }
+
+    p.lead{
+        font-size: calc(16px + 3vw);
+        font-family: "Spartan", "Helvetica";
+    }
+
+    p{
+        font-size: calc(16px + 2vw);
+        font-family: "Spartan", "Helvetica";
+    }
+}
+
+
+.button-sep{
+    height: inherit;
+    width: 2px;
+    background-color: rgba(187, 185, 185, 0.699);
+}

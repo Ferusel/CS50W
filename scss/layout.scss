@@ -1,0 +1,42 @@
+$header-font: "Bebas Neue", "Spartan";
+
+nav{
+    background-color: whitesmoke;
+    a{
+        span{
+            font-family: $header-font;
+            font-size: 6vh;
+            word-spacing: 0.1em;
+        }
+        img{
+            height: 100px;
+            width: 100px;
+        }
+    }
+    ul{
+        font-family: "Spartan", "Helvetica";
+        font-size: 3vh;
+    }
+}
+
+footer{
+    background-color: rgba(0, 47, 255, 0.767);
+    h6{
+        font-family: "Spartan", "Helvetica";
+        font-size: 2vh;
+        color: rgb(255, 255, 255);
+    }
+    p, a{
+        color: black;
+        font-family: "Poppins", "Spartan";
+        text-decoration: none;
+    }
+    hr{
+        height: 2px;
+        width: 100%;
+    }
+    small{
+        font-family: "Poppins", "Spartan";
+        color: black;
+    }
+}
