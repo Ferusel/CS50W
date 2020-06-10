@@ -1,0 +1,72 @@
+{% extends "layout.html" %}
+{% block content %}
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="{{ url_for('static', filename='diet.css') }}"
+/>
+<div class="container">
+<header class="my-3">
+    <title>BodyMaestro - Diet</title>
+    <h1>What do I eat?</h1>
+</header>
+<hr>
+<main>
+    <i>Written by: <span>MysteryMeatTwo</span></i>
+
+    <p>A wise man once said:</p>
+
+    <blockquote>
+        <p>It does not matter the kind of diet you are on - the latest keto diet, intermittent fasting, or paleo meal - it only matters if you can do it not for a week, a month, but a lifetime.</p>
+        <div id="quote-footer">--Ronald McDonald</div>
+    </blockquote>
+    
+
+    <p>There is a lot of wisdom to be gleaned from this wise quote. It appears that a new diet seemingly comes into vogue almost weekly, proclaiming to the panacea to your overweight/underweight/unbalanced/nutritionless diet, before being trumped by another diet that strangely, seems to say very similar things. How strange! So what does this all mean?</p>
+
+    <h4>What should I eat then?</h4>
+    <p>It then follows, that you should take their advice with a pinch of salt. No, not follow the diet with some salt, but follow a meal plan that you can stick for with life. If you find yourself hating it, every meal bland and the time between torture, you should not follow it! Stick to the core tenets of a good meal:</p>
+    <ul class="m-3">
+        <li>More fruits and vegetables! Colorful is great!</li>
+        <li>Some protein is good! The varied the better!</li>
+        <li>Starches are useful, but only the good ones! Avoid sugary stuff!</li>
+    </ul>
+    <p>
+        If you draw on a plate, 25% should be starches, and half of the remaining area should be each dedicated to protein and vegetables, the more varied, the better!
+    </p>
+
+    <h4>Some suggestions:</h4>
+    <p>Click on these buttons to discover some suggestions to each food group!</p>
+    <div class="container btn-grp" id="button-grp">
+        <div class="row">
+            <button type="button" class="col btn btn-outline-success" data-toggle="modal" data-target="#exampleModal">Vegetables</button>
+            <button type="button" class="col btn btn-outline-warning" data-toggle="modal" data-target="#exampleModal">Proteins</button>
+        </div>
+        <div class="row">
+            <button type="button" class="col btn btn-outline-danger" data-toggle="modal" data-target="#exampleModal">Carbohydrates</button>
+            <button type="button" class="col btn btn-outline-primary" data-toggle="modal" data-target="#exampleModal">Fruits</button>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ratione natus provident, consequuntur possimus minus sapiente sequi aliquid modi autem quae accusamus, eius dolores eum eveniet tenetur. Eos, iste maxime.
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <p class="my-3">Hope this helps. All the best!</p>
+</main>
+</div>
+{% endblock content %}

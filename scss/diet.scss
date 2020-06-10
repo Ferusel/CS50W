@@ -1,0 +1,71 @@
+$general-fontsize: calc(16px + 0.5vw);
+$button-fontsize: calc(16px + 2vw);
+
+header{
+    h1{
+        font-family: "Spartan", "Poppins";
+        font-weight: bold;
+        font-size: calc(16px + 3vw);
+    }
+}
+
+main{
+    i{
+        font-family: "Poppins";
+        font-size: calc(8px + 0.5vw);
+        font-weight: bold;
+        span{
+            font-style: italic;
+        }
+    }
+
+    %quoteme{
+        font-family: "Spartan";
+        font-size: $general-fontsize;
+        font-style: italic;
+        padding: 15px;
+    }
+
+    blockquote p{
+        @extend %quoteme;
+        background: rgb(156, 181, 250);
+        border-radius: 5px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    blockquote p::before {
+        content: '\201C';
+    }
+
+    blockquote p::after{
+        content: '\201C';
+    }
+
+    #quote-footer{
+        @extend %quoteme;
+    }
+
+    h4{
+        font-family: "Spartan", "Poppins";
+        font-weight: bold;
+        font-size: $general-fontsize
+    }
+    p{
+        font-family: "Poppins", "Helvetica";
+        font-size: $general-fontsize;
+    }
+
+    ul{
+        font-family: "Spartan";
+        font-size: $general-fontsize;
+    }
+
+    #button-grp{
+        width: 60%;
+        font-family: "Bebas Neue";
+        button{
+            font-size: $button-fontsize;
+        }
+    }
+}

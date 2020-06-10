@@ -25,7 +25,7 @@ main #table-head {
 }
 main tr {
   font-family: "Poppins", "Spartan";
-  font-size: calc(16px + 0.5vw);
+  font-size: calc(14px+0.5vw);
 }
 
 /*# sourceMappingURL=exercise.css.map */

@@ -1,5 +1,6 @@
 $general-fontsize: calc(16px + 0.5vw);
-$header-fontsize: calc(18px + 0.5vw); 
+$table-header-fontsize: calc(18px + 0.5vw); 
+$table-body-fontsize: calc(14px+0.5vw);
 
 header{
     h1{
@@ -28,11 +29,11 @@ main{
 
     #table-head{
         font-family: "Bebas Neue";
-        font-size: $header-fontsize;
+        font-size: $table-header-fontsize;
     }
 
     tr{
         font-family: "Poppins", "Spartan";
-        font-size: $general-fontsize;
+        font-size: $table-body-fontsize;
     }
 }

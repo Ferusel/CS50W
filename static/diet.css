@@ -1,0 +1,55 @@
+@charset "UTF-8";
+header h1 {
+  font-family: "Spartan", "Poppins";
+  font-weight: bold;
+  font-size: calc(16px + 3vw);
+}
+
+main i {
+  font-family: "Poppins";
+  font-size: calc(8px + 0.5vw);
+  font-weight: bold;
+}
+main i span {
+  font-style: italic;
+}
+main #quote-footer, main blockquote p {
+  font-family: "Spartan";
+  font-size: calc(16px + 0.5vw);
+  font-style: italic;
+  padding: 15px;
+}
+main blockquote p {
+  background: #9cb5fa;
+  border-radius: 5px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+main blockquote p::before {
+  content: "“";
+}
+main blockquote p::after {
+  content: "“";
+}
+main h4 {
+  font-family: "Spartan", "Poppins";
+  font-weight: bold;
+  font-size: calc(16px + 0.5vw);
+}
+main p {
+  font-family: "Poppins", "Helvetica";
+  font-size: calc(16px + 0.5vw);
+}
+main ul {
+  font-family: "Spartan";
+  font-size: calc(16px + 0.5vw);
+}
+main #button-grp {
+  width: 60%;
+  font-family: "Bebas Neue";
+}
+main #button-grp button {
+  font-size: calc(16px + 2vw);
+}
+
+/*# sourceMappingURL=diet.css.map */
