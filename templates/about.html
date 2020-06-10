@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% block content %}
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="{{ url_for('static', filename='about.css') }}"
+/>
+<div class="container my-3">
+    <header>
+        <title>BodyMaestro - About</title>
+        <h1 class="text-center my-3"> About BodyMaestro</h1>
+    </header>
+    <main>
+        <fieldset class="border border-secondary type1 p-3 m-3">
+            <legend>What Is BodyMaestro?</legend>
+            <section>BodyMaestro is a sample website meant for Project 0 of CS50's Web Development with Python and Javascript course. This is some sample text to fill in the article area of the website to make it look full and professional, but in truth does not hold much substance aside from taking up space to make the website look full and professional, but even that is fairly questionable.</section>
+        </fieldset>
+        <fieldset class="border border-secondary type2 p-3 m-3">
+            <legend>Well What Now?</legend>
+            <section>I don't know what to write, so take this: Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus distinctio dicta quidem error impedit ipsum, libero quas excepturi eius esse aspernatur, earum porro velit adipisci itaque fugiat, officiis vel quae!</section>
+        </fieldset>
+        <fieldset class="border border-secondary type1 p-3 m-3">
+            <legend>What Amazing Projects Am I Doing?</legend>
+            <section>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ducimus perspiciatis ab repellendus nemo quas asperiores facilis earum tempore nostrum blanditiis exercitationem quis aliquid, at veniam facere quos eos! Excepturi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati sed earum facilis accusamus, esse animi aspernatur cupiditate nesciunt tenetur vitae, laudantium commodi similique eius tempore repellendus hic suscipit beatae velit.</section>
+        </fieldset>
+    </main>
+</div>
+{% endblock content %}

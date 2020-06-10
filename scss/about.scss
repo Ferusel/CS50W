@@ -1,0 +1,38 @@
+$general-fontsize: calc(13px + 0.5vw);
+$legend-fontsize: calc(16px + 1vw);
+
+header{
+    h1{
+        font-family: "Bebas Neue";
+        font-size: calc(16px + 4vw);
+    }
+}
+
+main{
+    %article-style{
+        font-family: "Poppins";
+        font-size: $general-fontsize;
+    }
+
+    .type1{
+        @extend %article-style;
+        background-color: rgba(151, 170, 255, 0.767);
+        legend{
+            color: rgb(0, 47, 255);
+            font-family: "Spartan";
+            font-size: $legend-fontsize;
+            font-weight: bold;
+        }
+    }
+
+    .type2{
+        @extend %article-style;
+        background-color: whitesmoke;
+        legend{
+            color: black;
+            font-family: "Spartan";
+            font-size: $legend-fontsize;
+            font-weight: bold;
+        }
+    }
+}

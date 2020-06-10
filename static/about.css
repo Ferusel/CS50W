@@ -1,0 +1,29 @@
+header h1 {
+  font-family: "Bebas Neue";
+  font-size: calc(16px + 4vw);
+}
+
+main .type2, main .type1 {
+  font-family: "Poppins";
+  font-size: calc(13px + 0.5vw);
+}
+main .type1 {
+  background-color: rgba(151, 170, 255, 0.767);
+}
+main .type1 legend {
+  color: #002fff;
+  font-family: "Spartan";
+  font-size: calc(16px + 1vw);
+  font-weight: bold;
+}
+main .type2 {
+  background-color: whitesmoke;
+}
+main .type2 legend {
+  color: black;
+  font-family: "Spartan";
+  font-size: calc(16px + 1vw);
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=about.css.map */
